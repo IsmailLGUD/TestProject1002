@@ -15,7 +15,7 @@ public class GithubLoginPageTesting {
 		Thread.sleep(2000);
 		driver.findElement(By.id("login_field")).sendKeys("IsmailLGUD");
 		Thread.sleep(2000);
-		driver.findElement(By.id("password")).sendKeys("Ism@ilLGUD0040");
+		driver.findElement(By.id("password")).sendKeys("Hello12343");//wrong password
 		driver.findElement(By.className("btn")).click();		
 		
 	}
