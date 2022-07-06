@@ -35,12 +35,19 @@ public class BrowseLoginForgot  {
 	   // System.out.println(driver.findElement(By.xpath("//*[@id=\"slfErrorAlert\"] ")).getText());	    
 		
 	    driver.findElement(By.linkText("Forgot password?")).click();
+	    Thread.sleep(3000);
+	    
+	    //Below all the code works, written to remember
 	    
 	   // driver.findElement(By.cssSelector("#f218d291a1219d4")).click();
 	    
 	    //driver.findElement(By.xpath("//*[@id=\"f174d439de5046c\"]")).click();
-	   
+	    //driver.findElement(By.id("#f218d291a1219d4")).sendKeys("mdismailhossain215@gmail.com");
+	    driver.findElement(By.name("cppEmailOrUsername")).sendKeys("mdismailhossain215@gmail.com");
 	    
+	    driver.findElement(By.xpath("//*[@id=\"react-root\"]/section/main/div[2]/div/div/div/div/div[5]/button")).click();
+	    Thread.sleep(2000);
+	    driver.navigate().back();
 	
 
 	}
