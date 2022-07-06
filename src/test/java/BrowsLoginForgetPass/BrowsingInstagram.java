@@ -30,12 +30,11 @@ public class BrowsingInstagram {
 		//driver.manage().window().maximize();
 		
 		driver.get("https://www.instagram.com/");
+		
 		driver.manage().window().maximize();
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
 		driver.findElement(By.xpath("<input aria-label=\"Phone number, username, or email\" aria-required=\"true\" autocapitalize=\"off\" autocorrect=\"off\" maxlength=\"75\" name=\"username\" type=\"text\" class=\"_2hvTZ pexuQ zyHYP\" value=\"\">")).sendKeys("i.s.m.a.i.l_1"); 
-		//<input aria-label="Phone number, username, or email" aria-required="true" autocapitalize="off" autocorrect="off" maxlength="75" name="username" type="text" class="_2hvTZ pexuQ zyHYP" value="">
-		////*[@id="loginForm"]/div/div[1]/div/label/input
 		
 
 	}

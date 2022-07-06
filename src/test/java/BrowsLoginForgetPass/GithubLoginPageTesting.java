@@ -30,10 +30,13 @@ public class GithubLoginPageTesting {
 		Thread.sleep(1000);
 		
 		driver.findElement(By.id("email_field")).sendKeys("mdismailhossain215@gmail.com");
-		
 		Thread.sleep(10000);
+				
+				
 		driver.findElement(By.xpath("//*[@id=\"home_children_button\"]")).click();
 		//*[@id="home_children_button"]
+		
+				
 	}
 
 }
