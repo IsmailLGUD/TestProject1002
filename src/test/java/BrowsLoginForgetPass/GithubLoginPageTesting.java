@@ -27,13 +27,13 @@ public class GithubLoginPageTesting {
 		System.out.println(driver.findElement(By.xpath("//*[@id=\"js-flash-container\"]/div/div")).getText());
 		
 		driver.findElement(By.linkText("Forgot password?")).click();
-		Thread.sleep(1000);
+		Thread.sleep(10000);
 		
-		driver.findElement(By.id("email_field")).sendKeys("mdismailhossain215@gmail.com");
+		driver.findElement(By.id("email_field")).sendKeys("mdismailhossain215@gmail.com");		
 		Thread.sleep(10000);
 				
-				
-		driver.findElement(By.xpath("//*[@id=\"home_children_button\"]")).click();
+		driver.findElement(By.name("sc-bdnxRM fKMtvf sc-kEqXSa hZDbVr")).click();		
+		//driver.findElement(By.id("home_children_button")).click();
 		//*[@id="home_children_button"]
 		
 				
