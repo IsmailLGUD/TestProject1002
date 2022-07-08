@@ -50,6 +50,7 @@ public class RahulShettyWebpageTesting {
 		
 		System.out.println("Copyright: " + driver.findElement(By.cssSelector("footer[class='text-center-xs']")).getText());
 		
+		
 		//below are the same thing with css and xpath
 		System.out.println(driver.findElement(By.xpath("//div/h3")).getText());
 		System.out.println(driver.findElement(By.cssSelector("div h3")).getText());
@@ -79,7 +80,9 @@ public class RahulShettyWebpageTesting {
 		
 		System.out.println("Thanks! The Rahul Shetty Academy is successfully tested!");
 		
-		driver.close();
+		driver.close();  
+		
+		
 	}
 
 }
