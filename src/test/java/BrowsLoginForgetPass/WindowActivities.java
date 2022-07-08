@@ -20,7 +20,6 @@ public class WindowActivities {
 		driver.navigate().forward();
 		
 		
-		
 
 	}
 
